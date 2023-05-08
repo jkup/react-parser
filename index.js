@@ -61,7 +61,7 @@ function parseReactComponent(component) {
   return ast;
 }
 
-const filePath = path.join(__dirname, "my-components.js");
+const filePath = path.join(__dirname, "test.tsx");
 const components = parseFile(filePath);
 
 console.log(components);
